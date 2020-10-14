@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aida's Bakery</title>
+    <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="ikon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="header">
+  <div class="container">
+    <img src="atas.jpg"style="width:100%">
+      <div class="centered">
+        <h2>Aida's Bakery</h2>
+        <p>Find Happines in Every Bites of Cookies</p>
+      </div>
+    </div>
+</div>
+
+<div id="navbar">
+  <div class="topnav" id="myTopnav">
+    <a class="active" href="#">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    </div>
+</div>
+
+<section class="banner">
+  <h2>Welcome To Aida's Bakery</h2>
+</section>
+
+<div class="content">
+  <h3> <img src="ikon.png" height="62" width="72">  Aida's Bakery</h3>
+  <div class="tulisan">
+    <h3><center>Our Popular Dishes</center></h3>
+  </div>
+</div>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="cookies.jpg" alt="Diner" style="width:100%">
+      <div class="container">
+        <h2>Cookies</h2>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <p class="title">Snack</p>
+        <p>Perfectly Crunchie</p>
+        <p>IDR. 25k </p>
+        <p><button class="button">Buy Now</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="pancake.jpg" alt="Dinner" width="400" height="400">
+      <div class="container">
+        <h2>Pancake</h2>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <p class="title">Breakfast</p>
+        <p>American Breakfast Style</p>
+        <p>IDR 50k</p> 
+        <p><button class="button">Buy Now</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="waffle.jpg" alt="Dessert" height="400" width="400">
+      <div class="container">
+        <h2>Waffle</h2>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <p class="title">Dessert</p>
+        <p>Yummy Super Yummy</p>
+        <p>IDR 45k</p>
+        <p><button class="button">Buy Now</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="Right">Copyright© 2020 - Aida Liana. All Right Reserved</div>
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
